@@ -8,8 +8,8 @@ public class App {
         Jedis jedis = new Jedis("118.31.2.64", 6379, 1000);
 
 
-//        String age = jedis.get("age");
-//        System.out.println(age);
+        String age = jedis.get("age");
+         System.out.println(age);
 //
 //        jedis.set("name","zhangsan");
 
